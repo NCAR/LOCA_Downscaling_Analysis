@@ -1,0 +1,42 @@
+name: pangeo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - geopandas
+  - regionmask
+  - bottleneck
+  - netcdf4
+  - h5netcdf
+  - dask
+  - distributed
+  - xarray
+  # visualization
+  - matplotlib=2
+  - cartopy
+  - seaborn
+  - bokeh
+  # notebooks and things
+  - jupyter
+  - jupyterlab
+  - jupyter_dashboards
+  - ipywidgets
+  - notebook
+  # misc
+  - click
+  - cloudpickle
+  - msgpack-python
+  - psutil
+  - six
+  - sortedcontainers
+  - tblib
+  - toolz
+  - tornado
+  - zict
+  - pip:
+    - dask_jobqueue
